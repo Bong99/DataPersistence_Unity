@@ -1396,6 +1396,7 @@ MonoBehaviour:
   Ball: {fileID: 177912862}
   ScoreText: {fileID: 188020406}
   GameOverText: {fileID: 474497238}
+  bestScore: {fileID: 2078529056}
 --- !u!4 &1908742107
 Transform:
   m_ObjectHideFlags: 0

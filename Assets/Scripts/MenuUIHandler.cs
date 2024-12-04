@@ -22,8 +22,8 @@ public class MenuUIHandler : MonoBehaviour
 
     public void StartNew()
     {
-        
-        Debug.Log("StartNew(): " + inputName.text);
+        //Debug.Log("StartNew(): " + inputName.text);
+        DataManager.Instance.currentPlayer = inputName.text;
         SceneManager.LoadScene(1);
     }
 
